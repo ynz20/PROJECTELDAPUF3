@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Estableix la codificació de caràcters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Estableix l'escala inicial per a dispositius mòbils -->
+    <title>Pàgina Principal</title> <!-- Títol de la pàgina -->
+    <link rel="stylesheet" href="estilsMenuPrincipal.css"> <!-- Enllaça l'arxiu CSS extern -->
+</head>
+<body>
+    <div class="menu-container"> <!-- Contenidor del menú principal -->
+        <h1>Pàgina Principal</h1> <!-- Títol principal -->
+        <ul class="menu">
+            <li class="mi-elemento"><a href="add_user.html">Afegir Usuari</a></li> <!-- Element del menú per afegir un usuari -->
+        </ul>
+        <div class="contenidor-imatge">
+            <img id="imatge" alt="Imatge" width="200" height="150"> <!-- Imatge -->
+        </div>
+    </div>
+
+    <!-- Textos sobre el funcionament de LDAP -->
+    <div class="ldap-info">
+        <h2>Què és LDAP?</h2> <!-- Títol sobre LDAP -->
+        <p>LDAP (Lightweight Directory Access Protocol) és un protocol d'accés a directoris que s'utilitza per accedir i mantenir informació distribuïda de manera organitzada. És comúment utilitzat per a l'autenticació i autorització d'usuaris en sistemes de xarxa.</p> <!-- Explicació de LDAP -->
+
+        <h2>Funcionament de LDAP</h2> <!-- Títol sobre el funcionament de LDAP -->
+        <p>LDAP es basa en un model client-servidor, on els clients realitzen sol·licituds d'informació al servidor LDAP. El servidor respon a aquestes sol·licituds cercant a la seva base de dades distribuïda i retornant els resultats al client. La informació en LDAP s'organitza jeràrquicament en forma d'arbre, amb cada node representant una entitat o un recurs.</p> <!-- Explicació del funcionament de LDAP -->
+    </div>
+    
+    <div class="container">
+        <div class="video-container">
+            <video autoplay loop muted controls> <!-- Reproductor de vídeo -->
+                <source src="Mapache.mp4" type="video/mp4"> <!-- Fitxer de vídeo -->
+            </video>
+        </div>
+    </div>
+
+    <!-- Al final del body -->
+    <script src="script.js"></script> <!-- Enllaça l'arxiu de script JavaScript -->
+</body>
+</html>
+

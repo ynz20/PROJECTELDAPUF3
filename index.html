@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Estableix la codificació de caràcters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Estableix l'escala inicial per a dispositius mòbils -->
+    <title>Iniciar Sessió</title> <!-- Títol de la pàgina -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enllaça l'arxiu CSS extern -->
+</head>
+<body>
+    <div class="login-container"> <!-- Contenidor principal del formulari d'inici de sessió -->
+        <h2>Iniciar Sessió</h2> <!-- Títol del formulari -->
+        <form action="login.php" method="POST"> <!-- Formulari d'inici de sessió que envia les dades a l'arxiu login.php usant el mètode POST -->
+            <div class="form-group">
+                <label for="username">Usuari:</label> <!-- Etiqueta del camp d'usuari -->
+                <input type="text" id="username" name="username" required> <!-- Camp d'entrada per al nom d'usuari -->
+            </div>
+            <div class="form-group">
+                <label for="password">Contrasenya:</label> <!-- Etiqueta del camp de contrasenya -->
+                <input type="password" id="password" name="password" required> <!-- Camp d'entrada per a la contrasenya -->
+            </div>
+            <button type="submit">Iniciar Sessió</button> <!-- Botó per enviar el formulari -->
+        </form>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif; /* Estil de font per al cos del document */
+    background-color: #f4f4f4; /* Color de fons del cos del document */
+    margin: 0; /* Elimina el marge exterior */
+    padding: 0; /* Elimina el farciment exterior */
+    display: flex; /* Utilitza el model de caixa flexible */
+    justify-content: center; /* Centra horitzontalment els elements secundaris */
+    align-items: center; /* Centra verticalment els elements secundaris */
+    height: 100vh; /* Alçada del 100% de la finestra visible */
+}
+
+.login-container {
+    background-color: #fff; /* Color de fons del contenidor de l'inici de sessió */
+    padding: 20px; /* Farceix al voltant del contingut del contenidor */
+    border-radius: 8px; /* Arrodonir les cantonades del contenidor */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra del contenidor */
+    width: 300px; /* Amplada fixa del contenidor */
+}
+
+h2 {
+    margin-top: 0; /* Elimina el marge superior de l'encapçalat */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espai entre grups de formularis */
+}
+
+label {
+    display: block; /* Mostra les etiquetes de formulari com a blocs */
+    margin-bottom: 5px; /* Espai entre les etiquetes i els camps d'entrada */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Amplada dels camps d'entrada */
+    padding: 8px; /* Farceix interior dels camps d'entrada */
+    border: 1px solid #ccc; /* Borde dels camps d'entrada */
+    border-radius: 4px; /* Arrodonir les cantonades dels camps d'entrada */
+    box-sizing: border-box; /* Inclou el borde i el farciment en l'amplada total */
+}
+
+button {
+    background-color: #007bff; /* Color de fons del botó */
+    color: #fff; /* Color del text del botó */
+    border: none; /* Sense borde */
+    border-radius: 4px; /* Arrodonir les cantonades del botó */
+    padding: 10px 20px; /* Farceix interior del botó */
+    cursor: pointer; /* Cursor de punter */
+    width: 100%; /* Amplada del botó */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fons del botó en l'estat de passar el ratolí per sobre */
+}
+
+.video-container {
+    position: relative; /* Posició relativa per al contenidor de vídeo */
+    width: 100%; /* Amplada del contenidor de vídeo */
+    height: 100vh; /* Alçada del 100% de la finestra visible */
+    display: flex; /* Utilitza el model de caixa flexible */
+    justify-content: center; /* Centra horitzontalment els elements secundaris */
+    align-items: center; /* Centra verticalment els elements secundaris */
+}
+
+.video-container video {
+    max-width: 100%; /* Amplada màxima del vídeo */
+    max-height: 100%; /* Alçada màxima del vídeo */
+    width: auto; /* Amplada automàtica del vídeo */
+    height: auto; /* Alçada automàtica del vídeo */
+    position: absolute; /* Posició absoluta per al vídeo */
+    top: 0; /* Posiciona el vídeo a la part superior */
+    left: 0; /* Posiciona el vídeo a l'esquerra */
+    right: 0; /* Posiciona el vídeo a la dreta */
+    bottom: 0; /* Posiciona el vídeo a la part inferior */
+    margin: auto; /* Centra el vídeo horitzontalment i verticalment */
+}
+

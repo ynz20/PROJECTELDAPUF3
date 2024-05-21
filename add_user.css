@@ -1,0 +1,55 @@
+/* Estils generals del cos de la pàgina */
+body {
+    font-family: Arial, sans-serif; /* Defineix la font principal com Arial, amb alternativa sans-serif */
+    background-color: #f4f4f4; /* Defineix un color de fons gris clar per a tota la pàgina */
+    margin: 0; /* Elimina el marge per defecte del cos */
+    padding: 0; /* Elimina el padding per defecte del cos */
+    display: flex; /* Aplica un sistema de caixa flexible per al cos */
+    justify-content: center; /* Centra els elements fill horitzontalment */
+    align-items: center; /* Centra els elements fill verticalment */
+    height: 100vh; /* Ajusta l'alçada del cos a tota l'alçada de la finestra */
+}
+
+/* Estils per al contenidor principal */
+.container {
+    background-color: #fff; /* Defineix el color de fons del contenidor com a blanc */
+    padding: 20px; /* Afegeix padding intern de 20px */
+    border-radius: 8px; /* Fa que les cantonades del contenidor siguin arrodonides amb un radi de 8px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Afegeix una ombra suau sota el contenidor per donar sensació de profunditat */
+}
+
+/* Estils per al títol h2 */
+h2 {
+    margin-top: 0; /* Elimina el marge superior del títol h2 per evitar espai en blanc extra */
+}
+
+/* Estils per als grups de formulari */
+.form-group {
+    margin-bottom: 15px; /* Afegeix un marge inferior de 15px entre els grups de formulari per separar-los */
+}
+
+/* Estils per a les etiquetes de formulari */
+label {
+    display: block; /* Fa que els elements label es comportin com blocs per ocupar tot l'ample disponible */
+    margin-bottom: 5px; /* Afegeix un marge inferior de 5px sota cada etiqueta per separar-la del camp de formulari */
+}
+
+/* Estils per als camps de text, contrasenya i correu electrònic */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%; /* Fa que els camps ocupin tot l'ample del seu contenidor */
+    padding: 8px; /* Afegeix padding intern de 8px */
+    border: 1px solid #ccc; /* Defineix un color de vora gris clar */
+    border-radius: 4px; /* Arrodoneix les cantonades dels camps amb un radi de 4px */
+    box-sizing: border-box; /* Inclou el padding i el border dins de l'ample total de l'element */
+}
+
+/* Estils per als botons */
+button {
+    background-color: #007bff; /* Defineix un color de fons blau pels botons */
+    color: #fff; /* Defineix el color del text com a blanc */
+    border: none; /* Elimina la vora del botó */
+    border-radius: 4px; /* Arrodoneix les cantonades del botó amb un radi de 4px */
+    padding: 10px 20px; /* Afegeix padding
+

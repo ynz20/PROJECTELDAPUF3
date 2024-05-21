@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Especifica la codificació de caràcters utilitzada, en aquest cas UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Assegura que la pàgina s'ajusti correctament a diferents dispositius -->
+    <title>Añadir Usuario</title> <!-- Defineix el títol de la pàgina que es mostrarà a la pestanya del navegador -->
+    <link rel="stylesheet" href="add_user.css"> <!-- Enllaç al fitxer CSS que conté els estils de la pàgina -->
+</head>
+<body>
+    <div class="container"> <!-- Contenidor principal per al contingut de la pàgina -->
+        <h2>Añadir Usuario</h2> <!-- Títol del formulari -->
+        <form action="add_user.php" method="POST"> <!-- Formulari que envia les dades a "add_user.php" mitjançant el mètode POST -->
+            <div class="form-group"> <!-- Grup de formulari per al nom d'usuari -->
+                <label for="username">Nombre de Usuario:</label> <!-- Etiqueta per al camp del nom d'usuari -->
+                <input type="text" id="username" name="username" required> <!-- Camp d'entrada de text per al nom d'usuari, amb l'atribut 'required' -->
+            </div>
+            <div class="form-group"> <!-- Grup de formulari per a la contrasenya -->
+                <label for="password">Contraseña:</label> <!-- Etiqueta per al camp de la contrasenya -->
+                <input type="password" id="password" name="password" required> <!-- Camp d'entrada de contrasenya, amb l'atribut 'required' -->
+            </div>
+            <div class="form-group"> <!-- Grup de formulari per al correu electrònic -->
+                <label for="email">Correo Electrónico:</label> <!-- Etiqueta per al camp del correu electrònic -->
+                <input type="email" id="email" name="email" required> <!-- Camp d'entrada de correu electrònic, amb l'atribut 'required' -->
+            </div>
+            <button type="submit">Agregar Usuario</button> <!-- Botó per enviar el formulari -->
+        </form>
+    </div>
+</body>
+</html>
+
